@@ -5,3 +5,5 @@ include versioneer.py
 
 graft inflateorg
 global-exclude *.py[cod] __pycache__ *.so
+
+recursive-include inflateorg/data *.mdp
